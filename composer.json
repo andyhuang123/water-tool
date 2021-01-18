@@ -1,0 +1,39 @@
+{
+    "name": "coding/water-tool",
+    "description": "短视频的拓展包，集成各大短视频的去水印功能",
+    "type": "library",
+    "keywords": [
+        "coding",
+        "water-tool"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "coding",
+        "email": "356300546@qq.com"
+    }],
+    "require": {
+        "php": ">= 7.0",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-SimpleXML": "*",
+        "ext-mbstring": "*",
+        "ext-libxml": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smalls\\VideoTools\\": "src"
+        },
+        "files": [
+            "config/url-validator.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Smalls\\Tests\\": "tests"
+        }
+    }
+}
