@@ -35,5 +35,6 @@
         "psr-4": {
             "Smalls\\Tests\\": "tests"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
